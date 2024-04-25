@@ -32,7 +32,7 @@ namespace LeetCodeKI.interview
 
     public class TwoSum2
     {
-        public int[] TwoSum(int[] nums, int target)
+        public static int[] TwoSum(int[] nums, int target)
         {
 
             //classic not a perfect solution O(n^2)
@@ -71,4 +71,4 @@ namespace LeetCodeKI.interview
         }
     }
     }
-}
+

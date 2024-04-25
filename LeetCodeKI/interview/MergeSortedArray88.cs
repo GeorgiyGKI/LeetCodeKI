@@ -8,7 +8,7 @@ namespace LeetCodeKI.interview
 {
     public class MergeSortedArray88
     {
-        public void Merge(int[] nums1, int m, int[] nums2, int n)
+        public static void Merge(int[] nums1, int m, int[] nums2, int n)
         {
             //not my solution
             if (n == 0) return;
