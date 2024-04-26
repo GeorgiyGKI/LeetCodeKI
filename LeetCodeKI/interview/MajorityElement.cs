@@ -10,25 +10,25 @@ namespace LeetCodeKI.interview
     {
         public static int MajorityElement(int[] nums)
         {
-            int flag = 0;
-            int result = 0;
+            int count = 0;
+            int majorityElement = 0;
             foreach (var num in nums)
             {
-                if (flag == 0)
+                if (count == 0)
                 {
-                    result = num;
-                    flag = 1;
+                    majorityElement = num;
+                    count = 1;
                 }
-                else if (num == result)
+                else if (num == majorityElement)
                 {
-                    flag++;
+                    count++;
                 }
                 else
                 {
-                    flag--;
+                    count--;
                 }
             }
-            return result;
+            return majorityElement;
         }
     }
 }
