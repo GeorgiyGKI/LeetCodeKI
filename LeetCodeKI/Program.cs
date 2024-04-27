@@ -16,3 +16,7 @@ TwoSum2.TwoSum(nums, target);
 var nums27 = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
 var val27 = 2;
 RemoveElement27.RemoveElement(nums27, val27);
+
+//BestTimetoBuyandSellStock 121
+var nums121 = new int[] { 1,2 };
+BestTimetoBuyandSellStock.MaxProfit(nums121);
