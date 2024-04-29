@@ -18,5 +18,8 @@ var val27 = 2;
 RemoveElement27.RemoveElement(nums27, val27);
 
 //BestTimetoBuyandSellStock 121
-var nums121 = new int[] { 1,2 };
+var nums121 = new int[] { 7, 2, 3 , 6, 8, 1, 6 };
 BestTimetoBuyandSellStock.MaxProfit(nums121);
+
+//13. Roman to Integer
+RomanToInteger.RomanToInt("MCMXCIV");
