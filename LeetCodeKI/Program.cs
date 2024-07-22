@@ -31,4 +31,7 @@ using LeetCodeKI.other;
 //Console.WriteLine(zeroze);
 
 //367. Valid Perfect Square
-PerfectSquare.IsPerfectSquare(808201);
+//PerfectSquare.IsPerfectSquare(808201);
+
+//258.Add Digits
+Console.WriteLine(AddDigits.AddDigitsMethod(0));
