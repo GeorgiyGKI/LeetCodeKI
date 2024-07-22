@@ -16,10 +16,8 @@ namespace LeetCodeKI.other
 				while (num > 0)
 				{
 					var number = num % 10;
-
 					answer += number;
 					num = (num - number) / 10;
-
 				}
 				return AddDigitsMethod(answer);
 			}
@@ -27,8 +25,6 @@ namespace LeetCodeKI.other
             {
 				return num;
             }
-
-          
 		}
 	}
 }
