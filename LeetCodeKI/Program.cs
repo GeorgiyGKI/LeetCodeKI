@@ -25,6 +25,10 @@ using LeetCodeKI.other;
 ////13. Roman to Integer
 //RomanToInteger.RomanToInt("MCMXCIV");
 
-var zeroze = new int[] { 1, 0, 12, 0, 0 };
-MoveZeroes.MoveZeroesMethod(zeroze);
-Console.WriteLine(zeroze);
+////283. Move zeroes
+//var zeroze = new int[] { 1, 0, 12, 0, 0 };
+//MoveZeroes.MoveZeroesMethod(zeroze);
+//Console.WriteLine(zeroze);
+
+//367. Valid Perfect Square
+PerfectSquare.IsPerfectSquare(808201);
