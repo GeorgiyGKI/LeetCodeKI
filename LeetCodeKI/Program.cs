@@ -34,4 +34,8 @@ using LeetCodeKI.other;
 //PerfectSquare.IsPerfectSquare(808201);
 
 //258.Add Digits
-Console.WriteLine(AddDigits.AddDigitsMethod(0));
+//Console.WriteLine(AddDigits.AddDigitsMethod(0));
+
+//35 SearchInsertPosition
+var nums2 = new int[] { 1,3};
+Console.WriteLine(EasyInOneFile.SearchInsert(nums2, 2));
